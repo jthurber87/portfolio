@@ -57,3 +57,8 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+$(function() {
+  $(".HeartAnimation").click(function() {
+    $(this).toggleClass("animate");
+  });
+});
